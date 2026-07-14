@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raccoon Events</title>
+<meta name="description" content="Raccoon Events — private after-party events. Guest check-in, event updates, and donations.">
+<style>
+  :root {
+    --bg: #f7f6f3; --fg: #23282d; --muted: #5f6b76; --accent: #37474f;
+    --card: #ffffff; --border: #e2e0da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16191c; --fg: #e8e6e1; --muted: #9aa5ae; --accent: #b0bec5;
+            --card: #1f2429; --border: #2c333a; }
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: var(--bg); color: var(--fg);
+         font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 24px 64px; }
+  .mask { font-size: 72px; line-height: 1; }
+  h1 { font-size: 40px; letter-spacing: -0.02em; margin: 16px 0 8px; }
+  p.tag { color: var(--muted); font-size: 19px; margin-bottom: 32px; }
+  .card { background: var(--card); border: 1px solid var(--border);
+          border-radius: 14px; padding: 20px 24px; margin: 16px 0; }
+  .card h2 { font-size: 17px; margin-bottom: 6px; }
+  .card p { color: var(--muted); font-size: 15.5px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 14.5px; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mask" role="img" aria-label="raccoon">🦝</div>
+  <h1>Raccoon Events</h1>
+  <p class="tag">Private after-party events for friends and returning guests.</p>
+
+  <div class="card">
+    <h2>Check-in</h2>
+    <p>Guests register at the door with a name and phone number, and confirm
+       by replying <strong>Y</strong> to a one-time text message.</p>
+  </div>
+  <div class="card">
+    <h2>Messages</h2>
+    <p>Registered guests occasionally receive event invitations, updates,
+       photo links, and donation requests by SMS or WhatsApp — whichever they
+       chose at registration. Reply <strong>STOP</strong> at any time to
+       unsubscribe, or <strong>HELP</strong> for help.</p>
+  </div>
+  <div class="card">
+    <h2>Donations</h2>
+    <p>Events are funded by voluntary guest donations via PayPal and Venmo.
+       Donation messages say what the funds are used for.</p>
+  </div>
+
+  <footer>
+    <a href="/privacy.html">Privacy Policy</a> ·
+    <a href="/terms.html">SMS Terms &amp; Conditions</a><br>
+    © 2026 Raccoon Events
+  </footer>
+</main>
+</body>
+</html>

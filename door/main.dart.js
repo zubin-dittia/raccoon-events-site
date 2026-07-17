@@ -35342,7 +35342,7 @@ Ge(){var s=0,r=A.u(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e
 var $async$Ge=A.p(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:if($.ab==null)A.aM8()
 $.ab.toString
-n=A.bDW("raccoon_events",null,new A.anL(A.d2("sqlite3.wasm?rev=v6a",0,null),A.d2("drift_worker.js?rev=v6a",0,null)))
+n=A.bDW("raccoon_events",null,new A.anL(A.d2("sqlite3.wasm?rev=v6b",0,null),A.d2("drift_worker.js?rev=v6b",0,null)))
 $.bq.b=new A.Vq(n)
 s=2
 return A.f($.bq.aj().Aw(),$async$Ge)

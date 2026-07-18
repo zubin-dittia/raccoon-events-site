@@ -35838,7 +35838,7 @@ GH(){var s=0,r=A.r(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e
 var $async$GH=A.m(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:if($.ac==null)A.aNC()
 $.ac.toString
-n=A.bGR("raccoon_events",null,new A.aoR(A.d4("sqlite3.wasm?rev=v6b",0,null),A.d4("drift_worker.js?rev=v6b",0,null)))
+n=A.bGR("raccoon_events",null,new A.aoR(A.d4("sqlite3.wasm?rev=v8a",0,null),A.d4("drift_worker.js?rev=v8a",0,null)))
 $.b5.b=new A.W4(n)
 s=2
 return A.f($.b5.ab().B3(),$async$GH)

@@ -35885,7 +35885,7 @@ GK(){var s=0,r=A.q(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f,e
 var $async$GK=A.m(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:if($.ad==null)A.aNR()
 $.ad.toString
-n=A.bHg("raccoon_events",null,new A.ap3(A.d6("sqlite3.wasm?rev=d1784417744",0,null),A.d6("drift_worker.js?rev=d1784417744",0,null)))
+n=A.bHg("raccoon_events",null,new A.ap3(A.d6("sqlite3.wasm?rev=d1784417820",0,null),A.d6("drift_worker.js?rev=d1784417820",0,null)))
 $.b5.b=new A.Wc(n)
 s=2
 return A.f($.b5.ab().B6(),$async$GK)
@@ -134244,21 +134244,19 @@ break
 case 2:p=q.a
 s=6
 return A.f(A.VC(p,"PIN to change password"),$async$$1)
-case 6:s=c?4:5
+case 6:s=c&&p.e!=null?4:5
 break
-case 4:s=p.e!=null?7:8
-break
-case 7:s=9
+case 4:s=7
 return A.f(A.b5h(p),$async$$1)
-case 9:case 8:case 5:case 3:s=a==="signout"?10:11
+case 7:case 5:case 3:s=a==="signout"?8:9
 break
-case 10:s=14
+case 8:s=12
 return A.f(A.ff(null,null,!0,null,new A.aB4(),q.a,null,!0,t.y),$async$$1)
-case 14:s=c===!0?12:13
+case 12:s=c===!0?10:11
 break
-case 12:s=15
+case 10:s=13
 return A.f(A.b8r(),$async$$1)
-case 15:case 13:case 11:return A.o(null,r)}})
+case 13:case 11:case 9:return A.o(null,r)}})
 return A.p($async$$1,r)},
 $S:175}
 A.aB3.prototype={
